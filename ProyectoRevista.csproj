@@ -117,6 +117,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Clases\Articulo.cs" />
+    <Compile Include="Clases\Autor.cs" />
     <Compile Include="Ventanas\NuevoAutorVentana.xaml.cs">
       <DependentUpon>NuevoAutorVentana.xaml</DependentUpon>
     </Compile>
