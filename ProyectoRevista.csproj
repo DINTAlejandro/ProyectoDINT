@@ -125,6 +125,8 @@
     </ApplicationDefinition>
     <Compile Include="Clases\Articulo.cs" />
     <Compile Include="Clases\Autor.cs" />
+    <Compile Include="Servicios\ServicioAbrirImagenes.cs" />
+    <Compile Include="Servicios\ServicioAutor.cs" />
     <Compile Include="Servicios\ServicioBD.cs" />
     <Compile Include="Servicios\ServicioPDF.cs" />
     <Compile Include="Ventanas\NuevoAutorVentana.xaml.cs">
