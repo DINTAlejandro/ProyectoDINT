@@ -1,4 +1,6 @@
 ﻿using Microsoft.Data.Sqlite;
+using Microsoft.Toolkit.Mvvm.ComponentModel;
+using ProyectoRevista.Clases;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -34,6 +36,17 @@ namespace ProyectoRevista
                                     (name varchar(20) primary key)"; 
 
             comando.ExecuteNonQuery();
+
+            conexion.Close();
+        }
+
+        public List<Autor> GetAutors()
+        {
+            List<Autor> AllAutor = new List<Autor>();
+
+
+
+            return AllAutor;
         }
     }
 }
