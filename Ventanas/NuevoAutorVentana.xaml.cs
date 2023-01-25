@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProyectoRevista.VistasModelo;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,14 +15,14 @@ using System.Windows.Shapes;
 
 namespace ProyectoRevista.Ventanas
 {
-    /// <summary>
-    /// Lógica de interacción para NuevoAutorVentana.xaml
-    /// </summary>
     public partial class NuevoAutorVentana : Window
     {
+        NuevoAutorVM vm;
         public NuevoAutorVentana()
         {
             InitializeComponent();
+            vm = new NuevoAutorVM();
+            this.DataContext = vm;
         }
     }
 }
