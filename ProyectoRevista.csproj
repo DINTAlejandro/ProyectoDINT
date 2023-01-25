@@ -119,6 +119,7 @@
     </ApplicationDefinition>
     <Compile Include="Clases\Articulo.cs" />
     <Compile Include="Clases\Autor.cs" />
+    <Compile Include="Servicios\ServicioBD.cs" />
     <Compile Include="Ventanas\NuevoAutorVentana.xaml.cs">
       <DependentUpon>NuevoAutorVentana.xaml</DependentUpon>
     </Compile>
