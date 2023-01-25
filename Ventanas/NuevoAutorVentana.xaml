@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:ProyectoRevista.Ventanas"
         mc:Ignorable="d"
         xmlns:inputLayout="http://schemas.syncfusion.com/wpf"
-        Title="NuevoAutorVentanaa" 
+        Title="NuevoAutorVentana" 
         Height="400" Width="500"
         ResizeMode="NoResize" 
         ShowInTaskbar="False" 
