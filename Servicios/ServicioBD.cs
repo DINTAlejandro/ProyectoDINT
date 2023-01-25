@@ -8,6 +8,6 @@ namespace ProyectoRevista
 {
     class ServicioBD
     {
-        asdfasdfsda
+        
     }
 }

@@ -119,10 +119,12 @@
     </ApplicationDefinition>
     <Compile Include="Clases\Articulo.cs" />
     <Compile Include="Clases\Autor.cs" />
+    <Compile Include="Servicios\ServicioAbrirImagenes.cs" />
     <Compile Include="Servicios\ServicioBD.cs" />
     <Compile Include="Ventanas\NuevoAutorVentana.xaml.cs">
       <DependentUpon>NuevoAutorVentana.xaml</DependentUpon>
     </Compile>
+    <Compile Include="VistasModelo\NuevoAutorVM.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

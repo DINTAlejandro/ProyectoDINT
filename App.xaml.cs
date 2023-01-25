@@ -13,5 +13,10 @@ namespace ProyectoRevista
     /// </summary>
     public partial class App : Application
     {
+        public App()
+        {
+            //Register Syncfusion license
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense(ProyectoRevista.Properties.Settings.Default.key);
+        }
     }
 }
