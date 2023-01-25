@@ -35,9 +35,19 @@ namespace ProyectoRevista.Servicios
             return sinPublicar;
         }
 
-        /*public ObservableCollection<Articulo> ContieneArticulo(ObservableCollection<Articulo> articulos)
+        public bool ContieneArticulo(Autor autor,Articulo articulo)
         {
+            return autor.Articulos.Contains(articulo);
+        }
 
-        }*/
+        public void AddArticulo(Autor autor, Articulo articulo)
+        {
+            autor.Articulos.Add(articulo);
+        }
+
+        public void DeleteArticulo(Autor autor, Articulo articulo)
+        {
+            autor.Articulos.Remove(articulo);
+        }
     }
 }
