@@ -122,9 +122,13 @@
     <Compile Include="Servicios\ServicioAbrirImagenes.cs" />
     <Compile Include="Servicios\ServicioAutor.cs" />
     <Compile Include="Servicios\ServicioBD.cs" />
+    <Compile Include="Ventanas\EditarAutorVentana.xaml.cs">
+      <DependentUpon>EditarAutorVentana.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Ventanas\NuevoAutorVentana.xaml.cs">
       <DependentUpon>NuevoAutorVentana.xaml</DependentUpon>
     </Compile>
+    <Compile Include="VistasModelo\EditarAutorVM.cs" />
     <Compile Include="VistasModelo\NuevoAutorVM.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -138,6 +142,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Ventanas\EditarAutorVentana.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Ventanas\NuevoAutorVentana.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
