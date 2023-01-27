@@ -12,7 +12,7 @@ namespace ProyectoRevista.Clases
     {
         private string nombre;
         private string nickname;
-        private string image;
+        private string imagen;
         private string imagenRedSocial;
         private ObservableCollection<Articulo> articulos;
 
@@ -26,10 +26,10 @@ namespace ProyectoRevista.Clases
             get { return nickname; }
             set { SetProperty(ref nickname, value); }
         }
-        public string Image
+        public string Imagen
         {
-            get { return image; }
-            set { SetProperty(ref image, value); }
+            get { return imagen; }
+            set { SetProperty(ref imagen, value); }
         }
         public string ImagenRedSocial
         {
