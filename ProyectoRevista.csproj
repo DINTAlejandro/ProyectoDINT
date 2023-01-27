@@ -128,6 +128,7 @@
     <Compile Include="Servicios\ServicioAbrirImagenes.cs" />
     <Compile Include="Servicios\ServicioAutor.cs" />
     <Compile Include="Servicios\ServicioBD.cs" />
+    <Compile Include="Servicios\ServicioPDF.cs" />
     <Compile Include="Ventanas\NuevoAutorVentana.xaml.cs">
       <DependentUpon>NuevoAutorVentana.xaml</DependentUpon>
     </Compile>

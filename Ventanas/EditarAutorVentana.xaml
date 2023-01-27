@@ -112,8 +112,8 @@
     </Window.Resources>
 
     <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-        <inputLayout:SfTextInputLayout Hint="AutorActual.Nombre" HelperText="Nombre del autor" Margin="10">
-            <TextBox x:Name="tbxNombre" Text="{Binding Path=Nombre}"></TextBox>
+        <inputLayout:SfTextInputLayout Hint="Nombre" HelperText="Nombre del autor" Margin="10">
+            <TextBox x:Name="tbxNombre" Text="{Binding Path=AutorActual.Nombre}"></TextBox>
         </inputLayout:SfTextInputLayout>
 
         <inputLayout:SfTextInputLayout Hint="Red Social" HelperText="Nickname" Margin="10">
@@ -121,7 +121,7 @@
         </inputLayout:SfTextInputLayout>
 
         <inputLayout:SfTextInputLayout Hint="Red social" HelperText="Elegir la red social correspondiente" Margin="10">
-            <ComboBox x:Name="cbxRedSocial" Width="150" ItemsSource="{Binding Path=ListaRedesSociales}" SelectedItem="{Binding Path=AutorActual.RedSocial}"></ComboBox>
+            <ComboBox x:Name="cbxRedSocial" Width="150" ItemsSource="{Binding Path=ListaRedesSociales}" SelectedItem="{Binding Path=AutorActual.Redsocial}"></ComboBox>
         </inputLayout:SfTextInputLayout>
 
         <Border BorderBrush="Black" BorderThickness="1" CornerRadius="2">
